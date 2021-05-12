@@ -1,0 +1,24 @@
+<html>
+
+<body>
+<form action="contacto.php" method="post">
+  <div class="elem-group">
+    <label for="name">Tu nombre...</label>
+    <input type="text" id="name" name="visitor_name" placeholder="Carmelo Cotón" pattern=[A-Z\sa-z]{3,20} required>
+  </div>
+  <div class="elem-group">
+    <label for="email">Tu emilio</label>
+    <input type="email" id="email" name="visitor_email" placeholder="carmelo@coton.com" required>
+  </div>
+  <div class="elem-group">
+    <label for="title">Asunto del correo</label>
+    <input type="text" id="title" name="email_subject" required placeholder="Asunto">
+  </div>
+  <div class="elem-group">
+    <label for="message">Escriba su mensaje</label>
+    <textarea id="message" name="visitor_message" placeholder="Cuéntame..." required></textarea>
+  </div>
+  <button type="submit">Emíliame</button>
+</form>
+</body>
+</html>
